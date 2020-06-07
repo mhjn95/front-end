@@ -1,0 +1,54 @@
+.pix
+{
+  background:#333;
+  color: white;
+}
+
+.navbar
+{
+  border-bottom: blue 3px solid;
+  background:black;
+  opacity: 0.6;
+}
+
+.nav-link
+{
+  color: white;
+}
+
+#home-section
+{
+  background: url(https://cdn.pixabay.com/photo/2020/02/07/09/25/new-zealand-4826675_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 680px;
+}
+
+#home-section .dark-overlay
+{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  min-height: 680px;
+  background: rgba(0,0,0,0.7)
+}
+
+#home-section .home-inner
+{
+  padding-top: 150px;
+}
+
+#home-section .card-form
+{
+  opacity: 0.8;
+}
+
+#home-section .fas
+{
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
